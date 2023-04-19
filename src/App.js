@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Signin from "./components/Signin";
 import Signup from "./components/Signup";
-import Contact from "./components/Contact";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,10 +17,6 @@ function App() {
 
       <Route exact path="/about">
         <About />
-      </Route>
-
-      <Route exact path="/contact">
-        <Contact />
       </Route>
 
       <Route exact path="/signin">

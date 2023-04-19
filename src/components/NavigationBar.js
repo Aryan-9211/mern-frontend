@@ -17,9 +17,8 @@ function NavigationBar() {
             >
               <Nav.Link href="/">HOME</Nav.Link>
               <Nav.Link href="/about">ABOUT</Nav.Link>
-              <Nav.Link href="/contact">CONTACT</Nav.Link>
               <Nav.Link href="/signin">LOGIN</Nav.Link>
-              <Nav.Link href="/signup">REGISTRATION</Nav.Link>
+              <Nav.Link href="/signup">REGISTER</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

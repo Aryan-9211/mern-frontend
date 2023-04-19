@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <p>ABOUT</p>
+    <div style={{ textAlign: "center", marginTop: "15%" }}>
+      <p>WELCOME ABOUT</p>
       <h1>We Are The MERN Developer</h1>
     </div>
   );
