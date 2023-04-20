@@ -7,12 +7,12 @@ import { useHistory } from "react-router-dom";
 const Signup = () => {
   const history = useHistory();
   const [user, setUser] = useState({
-    name: "",
-    email: "",
-    phone: "",
+    name: "abc",
+    email: "abc@gmail.com",
+    phone: "123",
     work: "student",
-    password: "",
-    cpassword: "",
+    password: "123",
+    cpassword: "123",
   });
 
   const handleInputChange = (event) => {
@@ -121,7 +121,7 @@ const Signup = () => {
                 />
               </Form.Group>
 
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="submit" onClick={PostData}>
                 Submit
               </Button>
             </Form>
