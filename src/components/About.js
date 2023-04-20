@@ -35,7 +35,7 @@ const About = () => {
 
   return (
     <div style={{ textAlign: "center", marginTop: "15%" }}>
-      <p>WELCOME ABOUT</p>
+      <h3>WELCOME ABOUT</h3>
       <h1>NAME: {data.name}</h1>
       <h1>EMAIL: {data.email}</h1>
       <h1>PHONE: {data.phone}</h1>

@@ -7,12 +7,12 @@ import { useHistory } from "react-router-dom";
 const Signup = () => {
   const history = useHistory();
   const [user, setUser] = useState({
-    name: "abc",
-    email: "abc@gmail.com",
-    phone: "123",
+    name: "",
+    email: "",
+    phone: "",
     work: "student",
-    password: "123",
-    cpassword: "123",
+    password: "",
+    cpassword: "",
   });
 
   const handleInputChange = (event) => {
